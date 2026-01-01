@@ -91,7 +91,7 @@ function App() {
       unSubAuth();
       unSubDoc();
     };
-  }, [dispatch]);
+  }, [dispatch, setIsSignedIn]);
 
   useEffect(() => {
     window.scrollTo({
